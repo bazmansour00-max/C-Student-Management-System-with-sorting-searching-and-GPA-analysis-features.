@@ -1,30 +1,21 @@
 # Student Management System (C++)
 
-A console-based student management system developed using C++.
+A simple console-based application for managing student records using C++.
 
 ## Features
-- Add new students
-- Display all students
-- Search student by ID
-- Delete student
-- Update student information
-- Sort students by:
-  - GPA
-  - Name
-  - ID
-- Display top 3 students (by GPA)
-- Calculate average GPA
-- Filter students based on GPA:
-  - GPA > 3
-  - 2 < GPA < 3
-  - GPA < 2
+- Add, delete, update students
+- Search by ID
+- Sort by GPA, name, and ID
+- GPA analysis and filtering
 
-## Technologies Used
-- C++
-- Object-Oriented Programming (OOP)
-- Arrays & Basic Data Structures
+## Example Run
+Enter choice: 1  
+Enter name: Ahmed Mohamed  
+Enter ID: 123  
+Enter GPA: 3.5  
+
+Student added successfully!
 
 ## How to Run
-1. Compile the code:
-   ```bash
-   g++ main.cpp -o app
+g++ main.cpp -o app  
+./app
